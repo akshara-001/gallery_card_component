@@ -1,16 +1,14 @@
-# first_new
+# 💼 Flutter Profile UI
 
-A new Flutter project.
+A beautiful and clean profile screen built with Flutter.  
+This is part of my Flutter learning journey to improve my UI skills and hands-on practice.
 
-## Getting Started
+## 📱 Screenshot
 
-This project is a starting point for a Flutter application.
+![App Screenshot](Screenshot.png)
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 How to Run
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/akshara-001/Flutter-profile-ui.git
