@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'my_Card.dart';
 void main() {
   runApp(const MyApp());
 }
@@ -41,89 +42,29 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget build(BuildContext context) {
 
     return Scaffold(
-      backgroundColor: Colors.purple.shade50,
+      backgroundColor: Colors.blue.shade50,
       appBar: AppBar(
 
-        backgroundColor: Colors.purple.shade400,
+        backgroundColor: Colors.blue.shade700,
 
-        title: Text('PROFILE',style: TextStyle(color: Colors.white70)),
+        title: Text('GALLERY CARD',style: TextStyle(color: Colors.white)),
       ),
       body:
-
-      Center(
-        child: Container(
-          width: 360,
-          height: 520,
-          decoration: BoxDecoration(
-            color: Colors.purple.shade200,
-            borderRadius: BorderRadius.horizontal(right: Radius.circular(50)),
-
-
-          ),
+          
+        SingleChildScrollView(
           child: Column(
             children: [
+              MY_Card(title: 'Japan Cherry Trees', subtitle: 'Beneath the sakura, time slows, and the soul listens.', url: "https://www.japan-guide.com/thumb/XYZeXYZe2011_1680.jpg"),
+              MY_Card(title: "Your Name", subtitle: "🌠 No matter the time, no matter the place — I’ll find you.", url: "https://wallpapercave.com/wp/wp1892089.jpg"),
+              MY_Card(title: "Ireland and its People", subtitle: "Happiness in festivals", url: "https://ibiene.com/wp-content/uploads/2023/01/images-3.jpeg"),
+              MY_Card(title: "North East: Beauty of India", subtitle: "North East India — Where Nature Whispers and Culture Speaks.", url: "https://cdn.wallpapersafari.com/97/17/N3sQTv.jpg"),
+              MY_Card(title: "Lovely Runner", subtitle: "In every life , I will save you", url: "https://media.zenfs.com/en/comingsoon_net_477/97d5f44dd352bbeac229226af3eb1a9d")
 
-              Container(
-                width: 200,
-                height: 200,
-                decoration: BoxDecoration(
-                  shape: BoxShape.circle,
-                  border: Border.all(
-                    color: Colors.pinkAccent,
-                    width: 3
-                  ),
-
-                ),
-                child: ClipOval(child: Image.asset("assets/images/profile.jpg")),
-              ),
-              Container(
-                height: 10,
-              ),
-              Container(
-
-                  width: 150,
-                  decoration: BoxDecoration(
-                    color: Colors.white54,
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(
-                      color: Colors.purple,
-                          width: 3
-                    )
-                  ),
-                  child: Center(child: Text("Itzmee",style: TextStyle( fontWeight: FontWeight.bold, fontSize: 44, fontFamily: 'Myfonts'),))),
-                Text("App Developer",style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold),),
-              Container(
-                height: 20,
-              ),
-              Container(
-                width: 300,
-                  height: 100,
-                  decoration: BoxDecoration(
-                    borderRadius: BorderRadius.circular(10),
-                    border: Border.all(
-                      color: Colors.deepPurple,
-                      width: 3
-                    ),
-                    color: Colors.white70
-                  ),
-                  child: Center(child: Text("Turning coffee into clean Flutter code ☕📱 "
-                      "| Crafting sleek apps, one pixel at a time "
-                      "| Forever debugging, forever learning.",style:TextStyle( fontSize: 15,color: Colors.black87),))),
-                  Container( height: 20,),
-                  Row(
-                    children: [
-                      Container(width: 10,),
-                      Icon(Icons.app_registration),
-                      Text("www.instagram.com"),
-                      Container( width: 30,),
-                      Icon(Icons.account_circle_rounded),
-                      Text("www.linkedin.com")
-                    ],
-                  )
+              
+              
             ],
           ),
-        ),
-      ),
+        )
 
     );
   }
