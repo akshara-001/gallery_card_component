@@ -16,7 +16,7 @@ A simple, reusable Flutter widget to display a card with an image, title, subtit
 
 ## 📷 Preview
 
-![Demo Screenshot](gsllery.png) <!-- Replace with your own screenshot if needed -->
+![Demo Screenshot](gallery.png) <!-- Replace with your own screenshot if needed -->
 
 ---
 
