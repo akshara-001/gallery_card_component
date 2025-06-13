@@ -1,14 +1,22 @@
-# 💼 Flutter Profile UI
+# 📸 Gallery Card Component - Flutter
 
-A beautiful and clean profile screen built with Flutter.  
-This is part of my Flutter learning journey to improve my UI skills and hands-on practice.
+A simple, reusable Flutter widget to display a card with an image, title, subtitle, like button, and interactive star rating.
 
-## 📱 Screenshot
+---
 
-![App Screenshot](Screenshot.png)
+## ✨ Features
 
-## 🚀 How to Run
+- 🌄 Displays image from a URL
+- 📝 Custom title and subtitle
+- ❤️ Like/unlike toggle with snackbar feedback
+- ⭐ Interactive star rating (1 to 5 stars)
+- 💧 Splash effect on tap using `InkWell`
 
-1. Clone the repo:
-   ```bash
-   git clone https://github.com/akshara-001/Flutter-profile-ui.git
+---
+
+## 📷 Preview
+
+![Demo Screenshot](gsllery.png) <!-- Replace with your own screenshot if needed -->
+
+---
+
