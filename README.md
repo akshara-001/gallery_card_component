@@ -1,22 +1,40 @@
-# 📸 Gallery Card Component - Flutter
+# 💪 Flutter Motivation Dashboard
 
-A simple, reusable Flutter widget to display a card with an image, title, subtitle, like button, and interactive star rating.
+A sleek and inspiring productivity dashboard built using Flutter.  
+This app helps you track your daily tasks like workouts, walks, cooking, and study sessions — with a motivational fire boost!
 
 ---
 
 ## ✨ Features
 
-- 🌄 Displays image from a URL
-- 📝 Custom title and subtitle
-- ❤️ Like/unlike toggle with snackbar feedback
-- ⭐ Interactive star rating (1 to 5 stars)
-- 💧 Splash effect on tap using `InkWell`
+- 🌙 **Dark Theme UI**
+- 🧠 **Daily Task Cards**: Walk, Workout, Study, Cooking, Cleaning
+- 🔥 **Motivational Boost Button**: Rotating quotes via SnackBar
+- 🎯 **Progress & Stats Panel**: Tracks tasks, focus hours, and energy
+- 🧩 **Modular Code** with reusable widgets
+- 🔜 **Dynamic Task Addition (coming soon)**
 
 ---
 
-## 📷 Preview
+## 📸 Screenshots
 
-![Demo Screenshot](gallery.png) <!-- Replace with your own screenshot if needed -->
-![Demo Screenshot 2](img_1.png)
+| Home Page                   | Task Grid |
+|-----------------------------|-----------|
+| ![screenshot1](output1.png) | ![screenshot1](output2.png)
+
 ---
 
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Flutter SDK
+- Android Studio or VS Code with Flutter & Dart plugins
+
+### Run Locally
+
+```bash
+git clone https://github.com/yourusername/flutter_motivation_ui.git
+cd flutter_motivation_ui
+flutter pub get
+flutter run
